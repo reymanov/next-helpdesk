@@ -11,7 +11,6 @@ export default function Navigation() {
         width={70}
         height={100}
         quality={100}
-        placeholder="blur"
       />
 
       <h1>Next.js Helpdesk</h1>

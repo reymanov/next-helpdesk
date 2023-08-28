@@ -101,7 +101,8 @@ form button {
     rounded-md 
     py-3 px-4 my-4 
     relative 
-    overflow-hidden;
+    overflow-hidden
+    transition-all duration-300;
 }
 .card h3 {
   @apply font-bold text-gray-700 text-sm 
@@ -109,6 +110,10 @@ form button {
 }
 .card p {
   @apply my-4 text-sm leading-6;
+}
+
+.highlight:hover {
+  @apply shadow-md;
 }
 
 /* Pill styles */
